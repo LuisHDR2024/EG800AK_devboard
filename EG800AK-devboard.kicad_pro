@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -65,39 +65,47 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|170160000|86029999|3bc050a6-c81c-4bbf-99f4-4c412fb434da|90c637f7-3085-4a44-800a-d0e87c010adb",
+          "clearance|225125000|89550000|162be5b3-fc48-4c8e-a256-86afddd2c794|e4d7ced6-9dae-4f96-8e0b-0f108e23ea85",
           ""
         ],
         [
-          "clearance|170860000|86029999|f496a524-5678-4777-abeb-17975542bb22|bf43f697-55f0-408a-9f89-2e5c29ebdf71",
+          "clearance|236275000|108132500|7d68f7f4-ab28-4b2f-995d-5d1b0dae800e|9eb00c77-66a8-43a1-9251-5462e05537c0",
           ""
         ],
         [
-          "clearance|173060000|62300000|50c1b4ff-6302-48e2-86b6-4ec9488216b1|fbbd2125-2648-45bf-ba3e-7a251c2dbb28",
+          "clearance|237075000|108132500|ad9878dc-d94f-4005-ad1b-b789b2133061|1599aaa2-e227-4bd3-81cf-9ae88c9eeebf",
           ""
         ],
         [
-          "clearance|173510000|69630000|80047ba5-5fdf-40b3-b8aa-4abb3cb1d5bf|18003520-6983-4a82-a13d-fec8f3efcae8",
+          "clearance|238875000|82800000|50c1b4ff-6302-48e2-86b6-4ec9488216b1|fbbd2125-2648-45bf-ba3e-7a251c2dbb28",
           ""
         ],
         [
-          "clearance|174960000|62200000|3ed5309c-9dfc-4ea4-bbe7-4b81eb029b3d|fbbd2125-2648-45bf-ba3e-7a251c2dbb28",
+          "clearance|239325000|90050000|2f82a3e2-1ace-475e-9fc4-adea3844b3a7|ded582f6-bb67-40bb-94be-9e101be8e75f",
           ""
         ],
         [
-          "courtyards_overlap|159052072|87265000|8f8b1e81-8dbf-42e6-b3f6-7c7d0f3b8bf1|df2c71b0-ea54-461f-aabf-be6f444814ff",
+          "clearance|240775000|82700000|3ed5309c-9dfc-4ea4-bbe7-4b81eb029b3d|fbbd2125-2648-45bf-ba3e-7a251c2dbb28",
           ""
         ],
         [
-          "courtyards_overlap|169715001|85344999|a0671a13-812e-458d-8316-97846f3705ad|df2c71b0-ea54-461f-aabf-be6f444814ff",
+          "courtyards_overlap|221830000|100625000|eb675fa2-72da-4a2a-afa6-3dc8a4f82ca0|f8e2b357-e0a5-45da-a967-ac00d701c41f",
           ""
         ],
         [
-          "courtyards_overlap|170415001|85344999|05f68dc7-68db-496e-9b3e-416c124736f8|df2c71b0-ea54-461f-aabf-be6f444814ff",
+          "courtyards_overlap|221830000|102225000|e9c86ef3-98df-409c-8304-cacb20c83db8|f8e2b357-e0a5-45da-a967-ac00d701c41f",
           ""
         ],
         [
-          "items_not_allowed|174510000|62300000|fbbd2125-2648-45bf-ba3e-7a251c2dbb28|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|221830000|99025000|37cf7a12-0709-46d3-82eb-af944e3f86b6|f8e2b357-e0a5-45da-a967-ac00d701c41f",
+          ""
+        ],
+        [
+          "courtyards_overlap|235830001|107067500|12911d5d-70ed-46ed-8b93-5b81cd3a3026|f8e2b357-e0a5-45da-a967-ac00d701c41f",
+          ""
+        ],
+        [
+          "courtyards_overlap|236630001|107067500|092f1afa-ab73-4e0f-9871-261490a7a870|f8e2b357-e0a5-45da-a967-ac00d701c41f",
           ""
         ]
       ],
@@ -513,7 +521,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EG800K-LA-devboard.kicad_pro",
+    "filename": "EG800AK-devboard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -566,7 +574,11 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/RF_ANT": [
+        "4G_signal"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "USB_diff",
@@ -591,6 +603,18 @@
       {
         "netclass": "Power",
         "pattern": "/DC 3.8v supply"
+      },
+      {
+        "netclass": "4G_signal",
+        "pattern": "/GNSS"
+      },
+      {
+        "netclass": "USB_diff",
+        "pattern": "/USB-"
+      },
+      {
+        "netclass": "USB_diff",
+        "pattern": "/USB+"
       }
     ]
   },

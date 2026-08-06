@@ -1,4 +1,4 @@
-26625276681405146
+26655608846678288
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59906,6 +59906,27 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EasyEDA
+ANT-SMD_L3.1-W1.6
+
+
+0
+2
+2
+EasyEDA
+ANT-SMD_L3.2-W1.6-KH-3216F245C04
+
+
+0
+2
+2
+EasyEDA
+ANT-SMD_L5.0-W2.0_HM5B
+
+
+0
+2
+2
+EasyEDA
 ANT-SMD_L10.0-W3.0
 
 
@@ -60004,7 +60025,21 @@ CONN-TH_530480210
 2
 2
 EasyEDA
+CRYSTAL-SMD_4P-L2.0-W1.6-BL
+
+
+0
+4
+4
+EasyEDA
 CRYSTAL-SMD_4P-L3.2-W2.5-BL
+
+
+0
+4
+4
+EasyEDA
+CRYSTAL-SMD_4P-L3.2-W2.5-BL-1
 
 
 0
@@ -60032,6 +60067,13 @@ DFN-8_L3.3-W3.3-P0.65-BL
 5
 5
 EasyEDA
+FC-135R_L3.2-W1.5
+32.768KHz ±20ppm 12.5pF
+
+0
+2
+2
+EasyEDA
 FCGQFN-24_L3.0-W2.2-P0.40-BL
 
 
@@ -60045,6 +60087,27 @@ FILTER-SMD_4P-L2.0-W1.2-BL_DLW21H
 0
 4
 4
+EasyEDA
+FILTER-SMD_0603-4P-L1.6-W0.8-L-1
+
+
+0
+4
+4
+EasyEDA
+FILTER-SMD_1206-2P-L3.2-W1.6-L
+
+
+0
+2
+2
+EasyEDA
+FILTER-SMD_L5.2-W2.0-L
+
+
+0
+2
+2
 EasyEDA
 GPSM-SMD_18P-L10.0-W9.7-P1.10
 
@@ -60067,6 +60130,13 @@ LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL
 48
 48
 EasyEDA
+OSC-TH_BD2.0-P0.7-D0.3
+
+
+0
+2
+2
+EasyEDA
 OSC-TH_BD2.0-P0.70-D0.3
 
 
@@ -60088,11 +60158,25 @@ USB-Friendly Li-Ion Battery Charger and Power-Path Management IC, Vout 5.5 V, 4.
 17
 17
 EasyEDA
+QFN-32_L4.0-W4.0-P0.40-TL-EP2.9
+
+
+0
+33
+33
+EasyEDA
 QFN-48_L6.0-W6.0-P0.40-BL-EP3.8
 
 
 0
 53
+49
+EasyEDA
+QFN-48_L6.0-W6.0-P0.40-TL-EP4.6
+
+
+0
+49
 49
 EasyEDA
 SC-70-3_L2.1-W1.3-P1.30-LS2.1-TR
@@ -60241,6 +60325,13 @@ UFQFPN-32_L5.0-W5.0-P0.50-BL-EP
 0
 33
 33
+EasyEDA
+UFQFPN-48_L7.0-W7.0-P0.50-BL-EP5.6
+
+
+0
+49
+49
 EasyEDA
 VQFN-14_L3.5-W3.5-P0.50-BL-EP
 
@@ -96383,6 +96474,20 @@ rotary encoder illuminated switch vertical
 9
 8
 Samacsys
+MIAM10Q00B
+MIA-M10Q-00B-1
+Integrated Circuit
+0
+53
+53
+Samacsys
+QFN40P800X800X80-65N-D
+QFN64
+Integrated Circuit
+0
+65
+65
+Samacsys
 SR4L049L
 SR4L049-L-3
 Antenna
@@ -97062,13 +97167,6 @@ QFN50P500X500X90-33N
 33
 33
 Snapeda
-Quectel_EG800K_foot
-
-
-0
-109
-109
-Snapeda
 Quectel_EG800K_foot_recorted
 
 
@@ -97084,6 +97182,13 @@ SIM33ELA_foot
 31
 Snapeda
 SIM65M_foot
+
+
+0
+18
+18
+Snapeda
+SIM65M_foot_minimixed
 
 
 0
@@ -97201,6 +97306,13 @@ nano-sim-0501a-p_foot
 0
 8
 8
+Snapeda
+ublox_LGA-53_4.5x4.5mm_Layout9x9_P0.5mm_alternatve
+ublox MIA SoC Module, 4.5x4.5mm, 53 Ball, 9x9 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://content.u-blox.com/sites/default/files/documents/MIA-M10Q_IntegrationManual_UBX-21028173.pdf#page=82
+LGA 53 0.5 ublox_MIA-M-LGA53
+0
+42
+42
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)

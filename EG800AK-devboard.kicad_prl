@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "EG800K-LA-devboard.kicad_prl",
+    "filename": "EG800AK-devboard.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
