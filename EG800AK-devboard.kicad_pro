@@ -50,8 +50,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_display_style": 1,
+          "border_hatch_pitch": 0.2,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.6,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -83,19 +83,11 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|225125000|89550000|162be5b3-fc48-4c8e-a256-86afddd2c794|e4d7ced6-9dae-4f96-8e0b-0f108e23ea85",
-          ""
-        ],
-        [
           "clearance|236275000|108132500|7d68f7f4-ab28-4b2f-995d-5d1b0dae800e|9eb00c77-66a8-43a1-9251-5462e05537c0",
           ""
         ],
         [
           "clearance|237075000|108132500|ad9878dc-d94f-4005-ad1b-b789b2133061|1599aaa2-e227-4bd3-81cf-9ae88c9eeebf",
-          ""
-        ],
-        [
-          "clearance|238875000|82800000|50c1b4ff-6302-48e2-86b6-4ec9488216b1|fbbd2125-2648-45bf-ba3e-7a251c2dbb28",
           ""
         ],
         [

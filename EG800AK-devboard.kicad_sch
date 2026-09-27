@@ -20731,7 +20731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "3k"
 			(at 247.904 322.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28258,7 +28258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "3k"
 			(at 247.904 297.688 90)
 			(show_name no)
 			(do_not_autoplace no)
